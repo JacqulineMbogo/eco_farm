@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_green"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/flock_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="5dp"
+         android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/flock_breed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"
+             android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/acquired_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="@drawable/round_boarder_black"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_boarder_green"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:text="@string/chicks"
+                 android:textColor="@color/black"
+                />
+        <TextView
+            android:id="@+id/chick_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/round_boarder_green"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:text="@string/hen"
+                android:textColor="@color/black"
+                />
+        <TextView
+            android:id="@+id/hen_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/round_boarder_green"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:text="@string/cocks"
+                android:textColor="@color/black"
+                />
+        <TextView
+            android:id="@+id/cock_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/round_boarder_green"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:text="@string/total"
+                android:textStyle="bold"
+                 android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

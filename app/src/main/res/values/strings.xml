@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Eco_Farm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="flockmanagement">Flock Manager</string>
+    <string name="total">Total</string>
+    <string name="qty">Quantity</string>
+    <string name="chicks">Chicks</string>
+    <string name="hen">Hen</string>
+    <string name="cocks">Cocks</string>
+
+    <string name="add_flock">New flock</string>
+    <string name="ok">Okay</string>
+
+    <string name="acquired_on">Acquired_On</string>
+    <string name="flock_name">Flock_Name</string>
+    <string name="flock_breed">Flock_Breed</string>
+    <string name="flock_source">Flock_Source</string>
+    <string name="flock_details">Flock_Details</string>
+    <string name="description">Description</string>
+    <string name="acquired_date">Acquired_Date</string>
+
+    <string name="eggcollection">Egg Collection</string>
+    <string name="thisday">This Day</string>
+    <string name="thisweek">This Week</string>
+    <string name="thismonth">This Month</string>
+
+
+    <string name="flock">Flock</string>
+    <string name="collection_date">Collection Date</string>
+    <string name="total_collections">Total Collections</string>
+    <string name="good_eggs">Good Eggs</string>
+    <string name="spoilt_eggs">Spoilt Eggs</string>
+    <string name="comment">Comments</string>
+</resources>
+
+

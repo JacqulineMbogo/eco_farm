@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+                <LinearLayout
+                    android:id="@+id/flocknamelinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_boarder_black"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/flock_name"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                           android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/black"/>
+                    <EditText
+                        android:id="@+id/flockname_edit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:autofillHints="@string/flock_name"
+                        android:background="@drawable/round_boarder_green"/>
+
+
+
+                </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/flockbreedlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/flock_breed"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/flockbreed_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:autofillHints="@string/flock_breed"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/flocksourcelinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/flock_source"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/flocksource_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:autofillHints="@string/flock_source"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/round_boarder_black"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qty"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/flockqtylinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/chickqtylinear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/round_boarder_black"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/chicks"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/chick_qty_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:autofillHints="@string/chicks"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/henqtylinear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hen"
+            android:padding="5dp"
+           android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/hen_qty_edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:inputType="number"
+            android:autofillHints="@string/hen"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cocksqtylinear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="1"
+         android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cocks"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/cock_qty_edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:autofillHints="@string/cocks"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalqtylinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+       android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/total_qty_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="start"
+            android:layout_weight="1"
+             android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/descriptionlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/description_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:autofillHints="@string/description"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/acquiredlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_boarder_black"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/acquired_date"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/acquired_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:autofillHints="@string/acquired_date"
+            android:background="@drawable/round_boarder_green"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
