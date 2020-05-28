@@ -1,9 +1,9 @@
-package com.example.eco_farm.WebServices;
+package com.Eco.eco_farm.WebServices;
 
-import com.example.eco_farm.BuildConfig;
-import com.example.eco_farm.Response.NewFlockRegistration;
-import com.example.eco_farm.Response.flock_details_response;
-import com.example.eco_farm.Utility.Constant;
+import com.Eco.eco_farm.BuildConfig;
+import com.Eco.eco_farm.Response.NewFlockRegistration;
+import com.Eco.eco_farm.Response.flock_details_response;
+import com.Eco.eco_farm.Utility.Constant;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

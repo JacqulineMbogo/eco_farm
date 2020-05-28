@@ -1,10 +1,10 @@
-package com.example.eco_farm;
+package com.Eco.eco_farm;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.eco_farm.Collection_Manager.egg_collections;
-import com.example.eco_farm.Flock_Manager.flock_details;
+import com.Eco.eco_farm.Collection_Manager.egg_collections;
+import com.Eco.eco_farm.Flock_Manager.flock_details;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;

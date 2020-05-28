@@ -1,4 +1,4 @@
-package com.example.eco_farm.Utility;
+package com.Eco.eco_farm.Utility;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.example.eco_farm.R;
+import com.Eco.eco_farm.R;
 
 
 public class MessageDialog {

@@ -1,7 +1,7 @@
-package com.example.eco_farm.WebServices;
+package com.Eco.eco_farm.WebServices;
 
-import com.example.eco_farm.Response.NewFlockRegistration;
-import com.example.eco_farm.Response.flock_details_response;
+import com.Eco.eco_farm.Response.NewFlockRegistration;
+import com.Eco.eco_farm.Response.flock_details_response;
 
 import okhttp3.RequestBody;
 import retrofit2.Call;

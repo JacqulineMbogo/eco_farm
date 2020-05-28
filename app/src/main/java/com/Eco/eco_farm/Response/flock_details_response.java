@@ -1,4 +1,4 @@
-package com.example.eco_farm.Response;
+package com.Eco.eco_farm.Response;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

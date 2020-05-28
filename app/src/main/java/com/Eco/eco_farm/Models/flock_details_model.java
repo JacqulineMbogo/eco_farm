@@ -1,4 +1,4 @@
-package com.example.eco_farm.Models;
+package com.Eco.eco_farm.Models;
 
 public class flock_details_model {
 

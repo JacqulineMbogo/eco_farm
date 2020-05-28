@@ -1,10 +1,10 @@
-package com.example.eco_farm.Utility;
+package com.Eco.eco_farm.Utility;
 
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.eco_farm.MyApp;
+import com.Eco.eco_farm.MyApp;
 
 public class SharedPreferenceActivity {
 

@@ -1,11 +1,11 @@
-package com.example.eco_farm.Collection_Manager;
+package com.Eco.eco_farm.Collection_Manager;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.eco_farm.R;
+import com.Eco.eco_farm.R;
 
 public class egg_collections extends AppCompatActivity {
 

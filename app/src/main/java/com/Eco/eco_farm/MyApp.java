@@ -1,4 +1,4 @@
-package com.example.eco_farm;
+package com.Eco.eco_farm;
 
 import android.app.Application;
 import android.content.Context;

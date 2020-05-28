@@ -1,4 +1,4 @@
-package com.example.eco_farm.Flock_Manager;
+package com.Eco.eco_farm.Flock_Manager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,12 +14,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.eco_farm.Models.flock_details_model;
-import com.example.eco_farm.R;
-import com.example.eco_farm.Response.flock_details_response;
-import com.example.eco_farm.Utility.AppUtilits;
-import com.example.eco_farm.Utility.NetworkUtility;
-import com.example.eco_farm.WebServices.ServiceWrapper;
+import com.Eco.eco_farm.Models.flock_details_model;
+import com.Eco.eco_farm.R;
+import com.Eco.eco_farm.Response.flock_details_response;
+import com.Eco.eco_farm.Utility.AppUtilits;
+import com.Eco.eco_farm.Utility.NetworkUtility;
+import com.Eco.eco_farm.WebServices.ServiceWrapper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;

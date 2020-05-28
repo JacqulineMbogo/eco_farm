@@ -1,4 +1,4 @@
-package com.example.eco_farm.Flock_Manager;
+package com.Eco.eco_farm.Flock_Manager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.eco_farm.R;
-import com.example.eco_farm.Response.NewFlockRegistration;
-import com.example.eco_farm.Utility.NetworkUtility;
-import com.example.eco_farm.WebServices.ServiceWrapper;
+import com.Eco.eco_farm.R;
+import com.Eco.eco_farm.Response.NewFlockRegistration;
+import com.Eco.eco_farm.Utility.NetworkUtility;
+import com.Eco.eco_farm.WebServices.ServiceWrapper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import retrofit2.Call;

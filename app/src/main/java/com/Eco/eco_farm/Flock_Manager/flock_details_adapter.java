@@ -1,4 +1,4 @@
-package com.example.eco_farm.Flock_Manager;
+package com.Eco.eco_farm.Flock_Manager;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.eco_farm.Models.flock_details_model;
-import com.example.eco_farm.R;
+import com.Eco.eco_farm.Models.flock_details_model;
+import com.Eco.eco_farm.R;
 
 import java.util.List;
 

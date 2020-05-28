@@ -1,21 +1,16 @@
-package com.example.eco_farm.Utility;
+package com.Eco.eco_farm.Utility;
 
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.example.eco_farm.R;
+import com.Eco.eco_farm.R;
 
 import java.util.Calendar;
 
